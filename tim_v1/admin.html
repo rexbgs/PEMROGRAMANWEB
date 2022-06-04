@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Form</title>
+
+	<style>
+		.main {
+			height: 100%;
+			width: 100%;
+			background-color: lightgrey;
+		}
+
+		.top {
+			height: 80%;
+			width: 100%;
+			background-color: lightblue;
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+
+<div class="main" style="border: 2px solid blue">
+	<div class="top" style="border:2px solid blue;">
+		<h1>Form Admin</h1>
+	</div>
+
+	<form action="target.php" method="POST">
+	<table border="0" align="center">
+	<tr>
+		<td>Username:</td>
+		<td><input type="text" name="username" size="50"></td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+		<td><input type="Password" name="password" size="50"></td>
+	</tr>
+	<tr>
+		<td>Nama</td>
+			<td><input type="text" name="nama" size="50"></td>
+	</tr>
+	<tr>
+		<td>Jenis Kelamin:</td>
+			<td><input type="radio" name="kelamin" value="Laki"> Laki-laki
+			<input type="radio" name="kelamin" value="Perempuan"> Perempuan
+			<input type="radio" name="kelamin" value="none"> Non-Binary
+			<input type="radio" name="kelamin" value="what??"> Attack Helicopter </td>
+	</tr>
+	<tr>
+		<td>Hobbi:</td>
+			<td><input type="checkbox" name="hobi[]" value="game"> Gaming
+			<input type="checkbox" name="hobi[]" value="music"> Music
+			<input type="checkbox" name="hobi[]" value="turu"> Sleeping</td>
+	</tr>
+	<tr>
+		<td>Provinsi: </td>
+			<td><select name="provinsi">
+				<option value="none"> - None - </option>
+				<option value="kaltim">Kalimantan Timur</option>
+				<option value="kaltara">Kalimantan Utara </option>
+				<option value="kalsel">Kalimantan Selatan</option>
+				<option value="kalteng">Kalimantan Tengah</option>
+				<option value="kalbar">Kalimantan Barat</option>
+			</select></td>
+	</tr>
+	<tr>
+		<td>Tanggal Lahir:</td>
+			<td><input type="date" name="lahir"></td>
+	</tr>
+	<tr>
+		<td>Usia: </td>
+			<td><input type="number" name="usia"></td>
+	</tr>
+	<tr>
+		<td>Alamat: </td>
+			<td><textarea name="alamat"></textarea></td>
+	</tr>
+	<tr>
+		<td>Foto</td>
+			<td><input type="file" name="foto"></td>
+	</tr>
+	<tr>
+		<td><input type="submit" name="submit" value="SUBMIT"></td>
+		<!--input type="reset" name="reset" value="RESET"-->
+	</tr>
+	</table>
+	</form>
+</div>
+
+
+</body>
+</html>

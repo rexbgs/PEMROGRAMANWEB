@@ -1,0 +1,71 @@
+* {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+.container{
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.menu{
+	float: left;
+}
+
+nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	top: 0px;
+	background: white;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.gambar{
+	width: 300px;
+	float: left;
+}
+
+.isi h1{
+	font-weight: bold;
+}
+
+.komentar{
+	width: 300px;
+	float: right;
+}

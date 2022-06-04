@@ -1,0 +1,162 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+.bungkusan {
+    xmin-width: 900px;
+}
+
+.khusus {
+    position: relative;
+    overflow: auto;
+}
+
+/* bagian header */
+#header{
+    margin: 0px;
+    background-color: #6BCB77;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#header h1, #header p{
+    margin: 0;
+    padding: 0;
+}
+
+/* perlu perbaikan agar gambar bisa pas, bisa auto oke :D */ 
+/* bagian logo header */
+#header img{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* bagian menu */
+#menu{
+    margin: 0px;
+    background-color: #FF6B6B;
+    color: #ffffff;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+#menu ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+#menu li{
+    display: inline;
+    border-right: solid 2px #ffffff;
+}
+
+#menu li:last-child {
+    border-right: none;
+}
+
+#menu a:hover {
+    background-color: #4D96FF;
+}
+
+/* bagian main */
+#main{
+    background-color: #4D96FF;
+    color: #00000;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+
+#berita{
+    background-color: white;
+    margin: 5px;
+    padding: 0px;
+}
+
+#berita table{
+    width: 100%;
+    margin: 5px;
+}
+
+/* td */
+/* gambar masih ditengah kalau bisa diatas */
+#gambar{
+    width: 10%;
+}
+#teks{
+    width: 70%;
+}
+
+#teks h3{
+    text-align: left;
+    margin-left: 5px;
+}
+
+#teks p{
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: justify;
+}
+#komentar{
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px
+    width: 20%;
+}
+
+#teksarea{
+    resize: none;
+    width: 200px;
+    height: 100px;
+}
+
+#berita img{
+    width: 160px;
+    height: 120px;
+}
+
+#galeri{
+    background-color: white;
+    margin: 5px;
+    padding: 1px;
+    text-align: center;
+}
+
+#galeri img{
+    text-align: center;
+    margin: 10px;
+    padding: 1px;
+}
+
+
+/* bagian footer */
+
+#bottom {
+    
+    background-color: #6BCB77;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+
+#bottom h1{
+    font-size: 13px ;
+}

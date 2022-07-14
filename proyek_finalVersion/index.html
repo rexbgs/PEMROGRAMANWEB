@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> SMPN 1 PONJONG </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+
+</head>
+<body>
+
+	<!-- javascript !-->
+	<script src="java.js"></script>
+	
+
+	<div class="bungkusan khusus">
+		
+		
+		<!-- bagian hedaer !-->
+		<div id="header">
+			<img src="logo-dikpora.png">
+			
+			<p> Pemerintah Kabupaten Gunungkidul </p>
+			<p> Dinas Pendidikan Kabupaten Gunungkidul </p>
+			<p> SMP NEGERI 1 PONJONG </p>	
+		</div>
+
+		<!-- bagian menu !-->
+		<div id="menu">
+			<ul>
+				<!-- Bagian ke html & my sql -->
+				<li> <a style="color: lawngreen" href="data.php" onclick="menu()"> DATA SISWA </a> </li>
+
+				<li > <a href="index.html" target="_blank" onclick="menu()" > BERANDA </a> </li>
+				<li> <a href="profile.html" target="_blank" onclick="menu()" > PROFIL </a> </li>
+				<li> <a href="berita.html" target="_blank" onclick="menu()"> BERITA </a> </li>
+				<li> <a href="kegiatan.html" target="_blank" onclick="menu()"> KEGIATAN </a> </li>
+				<li> <a href="dashboardadmin.html" target="_blank" onclick="menu()"> DASHBOARD ADMIN </a> </li>
+			</ul>
+		</div>
+
+		<!-- bagian main !-->
+		<div id="main">
+			<h1> BERITA </h1>
+			<div id="berita">
+				<table >
+					<tr>
+						<td id="gambar"> 
+							<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img1.jpg"	>
+						</td>
+						<td id="teks"> 
+							<h3>Review Akreditasi Sekolah</h3>
+							<p>
+								WONOSARI- Dinas Pendidikan, Pemuda, dan Olahraga (Disdikpora) Kabupaten Gunungkidul melalui Bidang Sekolah Menegah Pertama menyelenggarakan Review Akreditasi Sekolah. Kegiatan yang bertempat di Ruang Rapat Handayai Disdikpora Kabupaten Gunungkidul dihadiri Oleh Tijan, S.Sos., M.M. selaku Kepala Bidang Sekolah Menegah Pertama (SMP) dan diikuti oleh Kepala Sekolah jenjang SMP se- Kabupaten Gunungkidul.
+							</p>
+						</td>
+						<td id="komentar">
+							<form  action="proses.php" method="post">
+								<label> Komentar </label> <br>	
+								<textarea id="komentar" name="komentar"></textarea> <br>
+								<input type="submit" name="submit" value="KIRIM">
+								<input type="reset" name="reset" value="HAPUS"> <br>
+							</form>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="berita">
+				<table>
+					<tr>
+						<td id="gambar"> 
+							<img src="img2.jpg"	onmouseover="bigImg(this)" onmouseout="normalImg(this)" >
+						</td>
+						<td id="teks"> 
+							<h3>Pelepasan Purna Tugas Bapak Drs. Sudya Marsita, M.M.</h3>
+							<p>
+								WONOSARI – Dinas Pendidikan, Pemuda, dan Olahraga (Disdikpora) Kabupaten Gunungkidul menyelenggarakan kegiatan Pelepasan Purna Tugas Bapak Drs. Sudya Marsita, M.M. selaku Sekretaris Disdikpora Kabupaten Gunungkidul. bertempat di gedung Kesenian Wonosari kegiatan dihadiri oleh  Drs. Ali Ridlo, M.M. selaku Pelaksana Tugas (PLT) Kepala Dinas Pendidikan, Pemuda, dan Olahraga Kabupaten Gunungkidul dengan diikuti oleh karyawan Disdikpora kabupaten Gunungkidul.
+							</p>
+						</td>
+						<td id="komentar">
+							<form  action="" method="">
+								<label> Komentar </label> <br>	
+								<textarea id="teksarea" name="komentar"></textarea> <br>
+								<input type="submit" name="submit" value="KIRIM">
+								<input type="reset" name="reset" value="HAPUS"> <br>
+							</form>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="berita">
+				<table>
+					<tr>
+						<td id="gambar"> 
+							<img src="img3.jpg"	onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+						</td>
+						<td id="teks"> 
+							<h3>Penyerahan Hadiah Kompetisi Literasi Dan Numerasi Tingkat Nasional</h3>
+							<p>
+								WONOSARI- Dinas Pendidikan, Pemuda, dan Olahraga (Disdikpora) Kabupaten Gunungkidul bekerja sama dengan Pesona Edu, Bank BCA, dan Pabrik Minuman Hillo melaksanakan kegiatan Penyerahan Hadiah Kompetisi Literasi Dan Numerasi Tingkat Nasional. Terkait kegiatan tersebut Disdikpora Kabupaten Gunungkidul menyambut baik dengan harapan Kompetisi Literasi Dan Numerasi ini dapat melatih siswa untuk menghadapi soal – soal Asesmen Kompetensi Minimal (AKM). 
+							</p>
+						</td>
+						<td id="komentar">
+							<form  action="proses.php" method="post">
+								<label> Komentar </label> <br>	
+								<textarea id="teksarea" name="komentar"></textarea> <br>
+								<input type="submit" name="submit" value="KIRIM">
+								<input type="reset" name="reset" value="HAPUS"> <br>
+							</form>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<h1> GALERI </h1>
+			<div id="galeri">
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img1.jpg" width="400px" height="300px" >
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img2.jpg" width="400px" height="300px">
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img3.jpg" width="400px" height="300px">
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img4.jpg" width="400px" height="300px">
+			</div>
+			<div id="galeri">
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img5.jpg" width="400px" height="300px">
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img6.jpg" width="400px" height="300px">
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img7.jpg" width="400px" height="300px">
+				<img onmouseover="besar(this)" onmouseout="normal(this)" src="img8.jpg" width="400px" height="300px">
+			</div>
+			
+		</div>
+
+		<!-- bagian footer !-->
+		<div id="bottom">
+	    	<p>Copyright © 2019 Dinas Pendidikan, Pemuda, dan Olahraga Gunungkidul</p>
+	  	</div>
+
+	</div>
+
+</body>
+</html>
